@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="size_30dp">30dp</dimen>
+    <dimen name="image_size">60dp</dimen>
+    <dimen name="size_240dp">240dp</dimen>
+    <dimen name="size_35dp">35dp</dimen>
+    <dimen name="size_12dp">12dp</dimen>
+    <dimen name="size_6dp">6dp</dimen>
+    <dimen name="size_25dp">25dp</dimen>
+    <dimen name="size_20dp">20dp</dimen>
+    <dimen name="size_80dp">80dp</dimen>
+    <dimen name="size_18dp">18dp</dimen>
+    <dimen name="size_120dp">120dp</dimen>
+</resources>

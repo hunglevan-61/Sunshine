@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/gray"
+    android:padding="@dimen/size_12dp"
+    android:id="@+id/otherDay"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/imgWeather"
+        android:layout_width="@dimen/image_size"
+        android:layout_height="@dimen/image_size"
+        android:layout_marginTop="@dimen/size_6dp"
+        android:layout_marginRight="@dimen/size_6dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/ic_light_rain" />
+
+    <TextView
+        android:id="@+id/txtDay"
+        android:layout_width="@dimen/size_240dp"
+        android:layout_height="@dimen/size_35dp"
+        app:layout_constraintStart_toEndOf="@id/imgWeather"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:textSize="@dimen/size_25dp"
+        tools:text="@string/tomorrow" />
+
+    <TextView
+        android:id="@+id/txtWeather"
+        android:layout_width="@dimen/size_240dp"
+        android:layout_height="@dimen/size_25dp"
+        android:layout_marginTop="@dimen/size_6dp"
+        app:layout_constraintStart_toStartOf="@id/txtDay"
+        app:layout_constraintBottom_toBottomOf="@id/imgWeather"
+        android:textStyle="bold"
+        android:textSize="@dimen/size_20dp"
+        tools:text="@string/rain"
+        />
+
+    <TextView
+        android:id="@+id/txtMaxTemp"
+        android:layout_width="@dimen/image_size"
+        android:layout_height="@dimen/size_35dp"
+        android:gravity="center"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/txtDay"
+        android:textSize="@dimen/size_25dp"
+        android:textStyle="bold"
+        tools:text="16\u00B0"
+        />
+
+    <TextView
+        android:id="@+id/txtMinTemp"
+        android:layout_width="@dimen/image_size"
+        android:layout_height="@dimen/size_25dp"
+        android:layout_marginTop="@dimen/size_6dp"
+        android:gravity="center"
+        android:textSize="@dimen/size_20dp"
+        app:layout_constraintBottom_toBottomOf="@id/txtWeather"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:textStyle="bold"
+        tools:text="3\u00B0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
