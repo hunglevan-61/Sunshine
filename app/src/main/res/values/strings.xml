@@ -3,6 +3,12 @@
     <string name="time">Today, April 30</string>
     <string name="tomorrow">Tomorrow</string>
     <string name="rain">Rain</string>
-    <string name="location">London, UK</string>
+    <string name="location">Ha Noi, Viet Nam</string>
     <string name="clear">Clear</string>
+    <string name="day">Today</string>
+    <string name="datetime">April 30</string>
+    <string name="humidity">Humidity: 72%</string>
+    <string name="pressure">Pressure: 1038 hPa</string>
+    <string name="wind">Wind: 3 km/h NE</string>
+    <string name="detailActivity_lable">Detail Activity</string>
 </resources>

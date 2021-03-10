@@ -21,7 +21,7 @@
         android:textColor="@color/white"/>
 
     <TextView
-        android:id="@+id/txtTodayMaxTemp"
+        android:id="@+id/txtMaxTemp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="@id/txtTime"
@@ -33,18 +33,18 @@
         android:textSize="@dimen/size_80dp"/>
 
     <TextView
-        android:id="@+id/txtTodayMinTemp"
+        android:id="@+id/txtMinTemp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintStart_toEndOf="@id/txtTodayMaxTemp"
-        app:layout_constraintBottom_toBottomOf="@id/txtTodayMaxTemp"
+        app:layout_constraintStart_toEndOf="@id/txtMaxTemp"
+        app:layout_constraintBottom_toBottomOf="@id/txtMaxTemp"
         tool:text="4\u00B0"
         android:textSize="@dimen/size_35dp"
         android:layout_marginBottom="@dimen/size_18dp"
         android:textColor="@color/white"/>
 
     <ImageView
-        android:id="@+id/imgTodayWeather"
+        android:id="@+id/imgWeather"
         android:layout_width="@dimen/size_120dp"
         android:layout_height="@dimen/size_120dp"
         app:layout_constraintTop_toTopOf="@id/txtTime"
@@ -56,19 +56,19 @@
         android:id="@+id/txtLocation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintStart_toStartOf="@id/txtTodayMaxTemp"
-        app:layout_constraintTop_toBottomOf="@id/txtTodayMaxTemp"
+        app:layout_constraintStart_toStartOf="@id/txtMaxTemp"
+        app:layout_constraintTop_toBottomOf="@id/txtMaxTemp"
         tool:text="@string/location"
         android:fontFamily="@font/arial"
         android:textSize="@dimen/size_25dp"
         android:textColor="@color/white"/>
 
     <TextView
-        android:id="@+id/txtTodayWeather"
+        android:id="@+id/txtWeather"
         android:layout_width="@dimen/size_120dp"
         android:layout_height="wrap_content"
-        app:layout_constraintStart_toStartOf="@id/imgTodayWeather"
-        app:layout_constraintTop_toBottomOf="@id/txtTodayMaxTemp"
+        app:layout_constraintStart_toStartOf="@id/imgWeather"
+        app:layout_constraintTop_toBottomOf="@id/txtMaxTemp"
         android:gravity="center_horizontal"
         tool:text="@string/clear"
         android:fontFamily="@font/arial"
